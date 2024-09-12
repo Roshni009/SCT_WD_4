@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <h1>ToDo App</h1>
+                 <p>Keep it up!</p>
+                <div id="progressBar">
+                    <div id="green-line"></div>
+                </div>
+                </div>
+                <div class="stats-numbers">
+                  <p id="numbers">0 / 0</p>
+                </div>
+            </div>
+            <form action="">
+               <input type="text" placeholder="Utilise your day!" class="input-value">
+               <button type="submit" id="btn">+</button>  
+            </form>
+            <ul class="task-list"></ul>
+        </div>
+
+</body>
+</html>
